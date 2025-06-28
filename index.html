@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBlade 5 Pro - Mencukur Kepala Sempurna dalam 90 Detik | nexco</title>
+    <meta name="description" content="Alat cukur kepala premium FlexBlade 5 Pro - Mencukur kepala sempurna hanya dalam 90 detik. Garansi resmi, gratis ongkir, dan harga spesial Rp199.000.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#000000',
+                        secondary: '#4a4a4a',
+                        accent: '#c0c0c0',
+                        light: '#9a9a9a',
+                        gold: '#D4AF37',
+                        darkgold: '#996515',
+                    },
+                    fontFamily: {
+                        heading: ['Poppins', 'sans-serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #000000 0%, #4a4a4a 100%);
+        }
+        .gold-gradient {
+            background: linear-gradient(135deg, #D4AF37 0%, #996515 100%);
+        }
+        .gold-border {
+            border: 1px solid #D4AF37;
+        }
+        .gold-text {
+            background: linear-gradient(135deg, #D4AF37 0%, #996515 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        .testimonial-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        .product-image {
+            transition: all 0.3s ease;
+        }
+        .product-image:hover {
+            transform: scale(1.05);
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+        }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(212, 175, 55, 0.6);
+        }
+        .sticky-cta {
+            animation: slideIn 0.5s ease-out forwards;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(100%); }
+            to { transform: translateY(0); }
+        }
+        .countdown-box {
+            animation: pulse 2s infinite;
+        }
+        .scroll-down {
+            animation: float 3s ease-in-out infinite;
+        }
+        .progress-bar {
+            transition: width 0.4s ease;
+        }
+        .fade-in {
+            animation: fadeIn 1s ease-in forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .zoom-on-hover {
+            transition: transform 0.3s ease;
+        }
+        .zoom-on-hover:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body class="font-body bg-primary text-white">
+    <!-- Dark Mode Toggle -->
+    <div class="fixed top-4 right-4 z-50">
+        <button id="darkModeToggle" class="glass-effect p-2 rounded-full">
+            <svg id="darkIcon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 007.354-5.646z" />
+            </svg>
+            <svg id="lightIcon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- Sticky CTA -->
+    <div id="stickyCta" class="fixed bottom-0 left-0 right-0 bg-primary py-3 px-4 shadow-lg z-40 hidden sticky-cta">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <div class="flex items-center mb-3 md:mb-0">
+                <img src="https://img.fantaskycdn.com/6c0e1f76e2778b41fdabc34f722c38da_540x.webp" alt="FlexBlade 5 Pro" class="h-16 w-16 object-contain mr-3">
+                <div>
+                    <h3 class="font-bold text-lg">FlexBlade 5 Pro</h3>
+                    <div class="flex items-center">
+                        <span class="text-gold font-bold text-lg mr-2">Rp199.000</span>
+                        <span class="text-light line-through">Rp260.500</span>
+                    </div>
+                </div>
+            </div>
+            <a href="#order" class="gold-gradient text-black font-bold py-3 px-6 rounded-full cta-button w-full md:w-auto text-center">Pesan Sekarang</a>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-effect fixed top-0 left-0 right-0 z-40">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" class="flex items-center">
+                <span class="text-xl font-bold font-heading">nexco</span>
+            </a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#features" class="hover:text-gold transition-colors">Fitur</a>
+                <a href="#gallery" class="hover:text-gold transition-colors">Galeri</a>
+                <a href="#testimonials" class="hover:text-gold transition-colors">Testimoni</a>
+                <a href="#order" class="hover:text-gold transition-colors">Pesan</a>
+            </div>
+            <button id="mobileMenuButton" class="md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="hidden md:hidden bg-secondary py-2 px-4">
+            <a href="#features" class="block py-2 hover:text-gold transition-colors">Fitur</a>
+            <a href="#gallery" class="block py-2 hover:text-gold transition-colors">Galeri</a>
+            <a href="#testimonials" class="block py-2 hover:text-gold transition-colors">Testimoni</a>
+            <a href="#order" class="block py-2 hover:text-gold transition-colors">Pesan</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg pt-24 pb-16 md:pt-32 md:pb-24 relative overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-30"></div>
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-6xl font-bold font-heading mb-4 leading-tight">
+                        <span class="gold-text">FlexBlade 5 Pro</span><br>
+                        Mencukur Kepala Sempurna dalam 90 Detik
+                    </h1>
+                    <p class="text-lg md:text-xl text-light mb-8">Alat cukur kepala premium yang mengubah rutinitas mencukur menjadi pengalaman yang cepat, mudah, dan menyenangkan.</p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="#order" class="gold-gradient text-black font-bold py-4 px-8 rounded-full cta-button text-center">Pesan Sekarang - Rp199.000</a>
+                        <a href="#features" class="glass-effect border border-gold text-gold font-bold py-4 px-8 rounded-full hover:bg-gold hover:text-black transition-colors text-center">Pelajari Fitur</a>
+                    </div>
+                    <div class="mt-8 flex flex-wrap gap-4">
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gold mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>Gratis Ongkir</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gold mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>Garansi 1 Tahun</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gold mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>100% Original</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <img src="https://img.fantaskycdn.com/7f17b932e8769b8176d09346045a7d7f_2056x.webp" alt="FlexBlade 5 Pro" class="w-full max-w-md animate-float">
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-4 left-0 right-0 flex justify-center">
+            <a href="#features" class="scroll-down text-gold animate-bounce">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="bg-secondary py-6">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+                <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gold mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                    <span>Produk Original</span>
+                </div>
+                <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gold mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                    </svg>
+                    <span>Gratis Pengiriman</span>
+                </div>
+                <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gold mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <span>Garansi 1 Tahun</span>
+                </div>
+                <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gold mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                    </svg>
+                    <span>Pembayaran Aman</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Showcase -->
+    <section id="gallery" class="py-16 bg-primary">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold font-heading mb-4">FlexBlade 5 Pro <span class="gold-text">Black Gold Edition</span></h2>
+                <p class="text-light max-w-2xl mx-auto">Desain premium dengan sentuhan emas yang elegan dan performa tinggi untuk pengalaman mencukur yang sempurna.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                <div class="overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://img.fantaskycdn.com/6c0e1f76e2778b41fdabc34f722c38da_540x.webp" alt="FlexBlade 5 Pro" class="w-full h-64 md:h-80 object-cover zoom-on-hover" onclick="openLightbox(this.src, this.alt)">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://img.fantaskycdn.com/d87343160344891b52f9cb5d38b60f68_540x.webp" alt="FlexBlade 5 Pro" class="w-full h-64 md:h-80 object-cover zoom-on-hover" onclick="openLightbox(this.src, this.alt)">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://img.fantaskycdn.com/c3446722513bce07b46dfd90eea901c1_540x.webp" alt="FlexBlade 5 Pro" class="w-full h-64 md:h-80 object-cover zoom-on-hover" onclick="openLightbox(this.src, this.alt)">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://img.fantaskycdn.com/a7f8c646cf69d9b6dc48197a9eb54a89_540x.png" alt="FlexBlade 5 Pro" class="w-full h-64 md:h-80 object-cover zoom-on-hover" onclick="openLightbox(this.src, this.alt)">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://img.fantaskycdn.com/6faef762ccccf5b1e16b3522a41663c4_540x.png" alt="FlexBlade 5 Pro" class="w-full h-64 md:h-80 object-cover zoom-on-hover" onclick="openLightbox(this.src, this.alt)">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://img.fantaskycdn.com/47cb534db19391f4f6b08542f98616f3_540x.webp" alt="FlexBlade 5 Pro" class="w-full h-64 md:h-80 object-cover zoom-on-hover" onclick="openLightbox(this.src, this.alt)">
+                </div>
+            </div>
+            
+            <div class="text-center mt-8">
+                <a href="#order" class="gold-gradient text-black font-bold py-3 px-6 rounded-full cta-button inline-block">Dapatkan Sekarang</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+        </div>
+        <div class="lightbox-nav">
+            <button onclick="prevImage()">&#10094;</button>
+            <button onclick="nextImage()">&#10095;</button>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 bg-secondary">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold font-heading mb-4">Mengapa <span class="gold-text">FlexBlade 5 Pro</span>?</h2>
+                <p class="text-light max-w-2xl mx-auto">Alat cukur revolusioner yang dirancang khusus untuk memberikan hasil cukur sempurna dengan cepat dan mudah.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <div class="glass-effect p-6 rounded-lg feature-card transition-all duration-300 hover:shadow-xl">
+                    <div class="text-gold text-4xl mb-4">90</div>
+                    <h3 class="text-xl font-bold mb-2">Detik Saja</h3>
+                    <p class="text-light">Mencukur kepala sempurna hanya dalam waktu 90 detik tanpa repot.</p>
+                </div>
+                <div class="glass-effect p-6 rounded-lg feature-card transition-all duration-300 hover:shadow-xl">
+                    <div class="text-gold text-4xl mb-4">3</div>
+                    <h3 class="text-xl font-bold mb-2">Metode Mencukur</h3>
+                    <p class="text-light">Pilih cara bercukur yang Anda inginkan: kering, dengan gel, atau di kamar mandi.</p>
+                </div>
+                <div class="glass-effect p-6 rounded-lg feature-card transition-all duration-300 hover:shadow-xl">
+                    <div class="text-gold text-4xl mb-4">100%</div>
+                    <h3 class="text-xl font-bold mb-2">Tanpa Iritasi</h3>
+                    <p class="text-light">Teknologi pisau canggih mengurangi risiko iritasi dan kulit kemerahan.</p>
+                </div>
+                <div class="glass-effect p-6 rounded-lg feature-card transition-all duration-300 hover:shadow-xl">
+                    <div class="text-gold text-4xl mb-4">1</div>
+                    <h3 class="text-xl font-bold mb-2">Tahun Garansi</h3>
+                    <p class="text-light">Garansi resmi 1 tahun untuk ketenangan pikiran Anda.</p>
+                </div>
+            </div>
+            
+            <!-- How It Works -->
+            <div class="mt-16">
+                <h3 class="text-2xl font-bold font-heading mb-8 text-center">Cara Menggunakan <span class="gold-text">FlexBlade 5 Pro</span></h3>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="bg-primary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                            <span class="text-gold text-2xl font-bold">1</span>
+                        </div>
+                        <img src="https://img.fantaskycdn.com/3473a13a88e9cf662b1e71c060a0341b.webp" alt="Step 1" class="w-full h-40 object-contain mb-4">
+                        <h4 class="font-bold mb-2">Pangkas Rambut Panjang</h4>
+                        <p class="text-light">Siapkan kepala Anda dengan memangkas rambut yang lebih panjang terlebih dahulu.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-primary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                            <span class="text-gold text-2xl font-bold">2</span>
+                        </div>
+                        <img src="https://img.fantaskycdn.com/014e1dcc370e1471a9c8101148d8e1a1.webp" alt="Step 2" class="w-full h-40 object-contain mb-4">
+                        <h4 class="font-bold mb-2">Pilih Metode Mencukur</h4>
+                        <p class="text-light">Pilih cara bercukur yang Anda inginkan: kering, dengan gel, atau di kamar mandi.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-primary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                            <span class="text-gold text-2xl font-bold">3</span>
+                        </div>
+                        <img src="https://img.fantaskycdn.com/8361e7f1096c0af5fdeda37b17218f71.webp" alt="Step 3" class="w-full h-40 object-contain mb-4">
+                        <h4 class="font-bold mb-2">Gunakan Teknik yang Benar</h4>
+                        <p class="text-light">Gunakan gerakan memutar kecil dengan tekanan sedang agar alat cukur dapat bekerja optimal.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-primary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                            <span class="text-gold text-2xl font-bold">4</span>
+                        </div>
+                        <img src="https://img.fantaskycdn.com/a1422d25d7bcc7a8ec11d4171addcfbe.webp" alt="Step 4" class="w-full h-40 object-contain mb-4">
+                        <h4 class="font-bold mb-2">Bersihkan dengan Mudah</h4>
+                        <p class="text-light">Buka bilah pisau dan bilas di bawah air untuk menghilangkan bulu dan kotoran.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-16 bg-primary">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold font-heading mb-4">Apa Kata <span class="gold-text">Pelanggan Kami</span>?</h2>
+                <p class="text-light max-w-2xl mx-auto">Ribuan pelanggan telah merasakan manfaat FlexBlade 5 Pro dalam kehidupan sehari-hari mereka.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="glass-effect p-6 rounded-lg testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://i.pinimg.com/736x/1c/90/56/1c9056c2ad0face041c65b23a7e0a897.jpg" alt="Firman" class="w-12 h-12 rounded-full object-cover mr-4">
+                        <div>
+                            <h4 class="font-bold">Firman</h4>
+                            <div class="flex text-gold">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Saya sudah mencoba banyak alat cukur, tapi FlexBlade 5 Pro ini benar-benar berbeda. Cukup 90 detik dan kepala saya sudah mulus sempurna. Tidak ada lagi iritasi atau kulit kemerahan."</p>
+                </div>
+                <div class="glass-effect p-6 rounded-lg testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://i.pinimg.com/736x/9a/89/a1/9a89a15f95e000a4669082255d08efa1.jpg" alt="Jeck" class="w-12 h-12 rounded-full object-cover mr-4">
+                        <div>
+                            <h4 class="font-bold">Jeck</h4>
+                            <div class="flex text-gold">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M9.049 2.927c.3.-921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Sebagai seorang yang botak, alat cukur adalah investasi penting buat saya. FlexBlade 5 Pro ini benar-benar menghemat waktu saya. Sekarang saya bisa mencukur kepala dengan cepat sebelum berangkat kerja."</p>
+                </div>
+                <div class="glass-effect p-6 rounded-lg testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://i.pinimg.com/736x/15/1d/55/151d55fd9220733a197914c032dce345.jpg" alt="Ade" class="w-12 h-12 rounded-full object-cover mr-4">
+                        <div>
+                            <h4 class="font-bold">Ade</h4>
+                            <div class="flex text-gold">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Saya suka desainnya yang elegan dengan sentuhan emas. Tidak hanya berfungsi dengan baik, FlexBlade 5 Pro juga terlihat premium di kamar mandi saya. Worth every penny!"</p>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <div class="inline-flex items-center bg-primary rounded-full px-6 py-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gold mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <span class="font-bold">5000+ Pelanggan Puas</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing & Promo -->
+    <section class="py-16 bg-secondary">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold font-heading mb-4">Harga Spesial <span class="gold-text">Hari Ini</span></h2>
+                <p class="text-light max-w-2xl mx-auto">Dapatkan FlexBlade 5 Pro dengan harga diskon sebelum kembali ke harga normal.</p>
+            </div>
+            
+            <div class="max-w-3xl mx-auto glass-effect rounded-lg p-8">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 mb-8 md:mb-0 flex justify-center">
+                        <img src="https://img.fantaskycdn.com/6c0e1f76e2778b41fdabc34f722c38da_540x.webp" alt="FlexBlade 5 Pro" class="h-64 object-contain">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h3 class="text-2xl font-bold mb-4">FlexBlade 5 Pro</h3>
+                        <div class="mb-6">
+                            <span class="text-3xl font-bold text-gold">Rp199.000</span>
+                            <span class="text-light line-through ml-2">Rp260.500</span>
+                            <span class="bg-red-500 text-white text-xs font-bold px-2 py-1 rounded ml-2">DISKON 24%</span>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <div class="flex items-center mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gold mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                                <span>Mencukur kepala sempurna dalam 90 detik</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gold mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                                <span>3 metode mencukur: kering, dengan gel, atau di kamar mandi</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gold mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                                <span>Teknologi pisau canggih mengurangi iritasi</span>
+                            </div>
+                            <div class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gold mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                                <span>Garansi resmi 1 tahun</span>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-6 bg-primary rounded-lg p-4 text-center">
+                            <div class="text-sm mb-2">Penawaran berakhir dalam:</div>
+                            <div id="countdown" class="flex justify-center space-x-2">
+                                <div class="bg-gold text-black rounded w-12 h-12 flex flex-col items-center justify-center">
+                                    <span id="hours" class="font-bold text-xl">00</span>
+                                    <span class="text-xs">Jam</span>
+                                </div>
+                                <div class="bg-gold text-black rounded w-12 h-12 flex flex-col items-center justify-center">
+                                    <span id="minutes" class="font-bold text-xl">00</span>
+                                    <span class="text-xs">Menit</span>
+                                </div>
+                                <div class="bg-gold text-black rounded w-12 h-12 flex flex-col items-center justify-center">
+                                    <span id="seconds" class="font-bold text-xl">00</span>
+                                    <span class="text-xs">Detik</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <a href="#order" class="gold-gradient text-black font-bold py-3 px-6 rounded-full cta-button w-full text-center block">Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form -->
+    <section id="order" class="py-16 bg-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold font-heading mb-4">Pesan <span class="gold-text">FlexBlade 5 Pro</span> Sekarang</h2>
+                <p class="text-light max-w-2xl mx-auto">Isi formulir berikut dan kami akan segera menghubungi Anda untuk proses pemesanan.</p>
+            </div>
+            
+            <div class="max-w-2xl mx-auto">
+                <!-- OrderOnline Embed Code - v8.0.4 -->
+                <div class="ooef">
+                    <form class="orderonline-embed-form" data-username="mila" data-product-slug="flexblade-5-pro" data-product-id="68605fff8fb8e86166034b32" id="oo-embed-form-flexblade-5-pro-7177" data-origin="orderonline">
+                        <div class="ooef-loader"><style>.ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}@keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}@-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}.ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}.ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}.ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}@-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}@keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}</style><div aria-live="polite" role="status"><div>Loading...</div></div></div>
+                    </form>
+                </div>
+                <script>
+                    if (typeof xLogError != 'function') {
+                        var xLogError = function (error) {
+                            var req = new XMLHttpRequest();
+                            var payload = JSON.stringify({
+                                url: document.location.href,
+                                line: error.line,
+                                stack: error.stack
+                            });
+                            var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+                            req.open('POST', 'https://api.orderonline.id/log', true);
+                            req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                            req.send(params);
+                        };
+                    }
+                    try {
+                        if (typeof xEmbedScript != 'function') {
+                            var xEmbedScript = function () {
+                                !function(w, d, e, v, id, t, s) {
+                                    if (d.getElementById(id)) return;
+                                    t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                                    s = d.getElementsByTagName(e)[0];
+                                    s.parentNode.insertBefore(t, s);
+                                }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4', 'oo-embed-js');
+                            };
+                        }
+                        if (typeof xEmbedInit != 'function') {
+                            var xEmbedInit = function (w, n) {
+                                if (w.ooe) return;
+                                n = w.ooe = function() {
+                                    n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                                };
+                                if (!w._ooe) w._ooe = n;
+                                n.push = n;n.loaded = !0;n.version = '8.0.4';n.queue = [];
+                            };
+                        }
+                        xEmbedInit(window);
+                        ooe('setup', 'redirect', 'https://mila.orderonline.id');
+                        ooe('init', '5f1a7b8fa9bf807da24d83bb', '68605fff8fb8e86166034b32', '68605fff8fb8e86166034b33', 'oo-embed-form-flexblade-5-pro-7177', {"mode":"page","action":"Klik untuk pemesanan","title":"Form Pemesanan","triggerPixel":true,"triggerGtm":false});
+                        if (!window.jQuery) {
+                            !function(w, d, e, v, id, t, s) {
+                                if (d.getElementById(id)) return;
+                                t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                                t.addEventListener('load', xEmbedScript);
+                                s = d.getElementsByTagName(e)[0];
+                                s.parentNode.insertBefore(t, s);
+                            }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+                        } else {
+                            xEmbedScript();
+                        }
+                    } catch (e) {
+                        xLogError(e);
+                        throw e;
+                    }
+                </script>
+                <!-- End OrderOnline Embed Code -->
+                
+                <div class="mt-8 flex flex-wrap justify-center gap-4">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gold mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                        </svg>
+                        <span>Pembayaran Aman</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gold mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                        <span>Data Dijamin Rahasia</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gold mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                        </svg>
+                        <span>Gratis Pengiriman</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
